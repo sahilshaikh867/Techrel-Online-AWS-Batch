@@ -1,9 +1,3 @@
-Yes. **Linux Directories & File System** is the perfect next topic after User & Group Management, because students can now connect:
-
-**Users → Groups → Ownership → Permissions → Files & Directories → File System**
-
-For your lecture, I would teach it from absolute beginner level like this.
-
 # Linux Directories & File System — Detailed Lecture
 
 ## 1. First Question: What is a File?
@@ -2039,7 +2033,7 @@ Linux
 
 And this:
 
-```text
+```
 Storage
    ↓
 Filesystem
