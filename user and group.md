@@ -1,5 +1,3 @@
-Absolutely. For today’s **Linux User & Group Management** lecture, I’d teach it from **absolute beginner level → real Linux server → DevOps use case → commands → practical lab**.
-
 # Linux User & Group Management — Detailed Lecture
 
 ## 1. First Question: What is a User in Linux?
@@ -1739,7 +1737,7 @@ sudo chmod 770 /opt/project
 
 Now conceptually:
 
-```text
+```
 root        → full access
 developers  → full access
 others      → no access
@@ -1779,7 +1777,7 @@ others      → no access
 
 If I were taking the lecture, I'd tell students to remember these first:
 
-```bash
+```
 whoami
 id
 who
@@ -1812,7 +1810,7 @@ sudo chgrp group file
 
 Students should leave today's lecture understanding this:
 
-```text
+```
                  LINUX SYSTEM
                       │
           ┌───────────┴───────────┐
@@ -1888,7 +1886,7 @@ And the core concept is:
 
 Make students remember this one line:
 
-```text
+```
 USER
  ↓
 UID
@@ -1906,7 +1904,7 @@ ACCESS
 
 And in a real DevOps environment:
 
-```text
+```
 Employee
    ↓
 Linux User
@@ -1919,5 +1917,3 @@ Required Resources
    ↓
 No unnecessary Root Access
 ```
-
-That gives them the **actual reason behind Linux User & Group Management**, rather than just memorizing `useradd`, `groupadd`, and `usermod`.
